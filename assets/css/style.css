@@ -100,8 +100,12 @@ footer h5{
 
 /* CONTACT HTML CSS ................................ */
 
+#contactBody{
+    height: 900px;
+}
+
 #jumbotron{
-    height: 500px;
+    height: 540px;
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -121,4 +125,22 @@ footer h5{
     margin: 0 auto;
     color: #777777;
     font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+input{
+    width: 910px;
+    padding: 5px;
+}
+
+textarea{
+    width: 910px;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
 }
