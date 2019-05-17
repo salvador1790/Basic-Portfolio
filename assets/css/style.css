@@ -101,11 +101,11 @@ footer h5{
 /* CONTACT HTML CSS ................................ */
 
 #contactBody{
-    height: 900px;
+    height: 1000px;
 }
 
 #jumbotron{
-    height: 540px;
+    height: 600px;
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -143,4 +143,120 @@ textarea{
     width: 90px;
     height: 40px;
     margin-top: 10px;
+}
+
+/* PORTFOLIO HTML CSS ................................ */
+
+#portfoliobod{
+    height: 1200px;
+}
+
+#jumbotronPortfolio{
+    height: 830px;
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#hangman{
+    background-image: url('../images/download.jpeg');
+    height: 200px;
+    width: 230px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  float: left;
+  left: 20px;
+  top: 20px;
+}
+
+#rpgGame{
+    background-image: url('../images/download.jpeg');
+    height: 200px;
+    width: 230px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  float: left;
+}
+
+.banner{
+    width: 230px;
+    height: 50px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 140px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner p{
+    position: relative;
+    top: 15px;
+}
+
+#trivia{
+    background-image: url('../images/download.jpeg');
+    height: 200px;
+    width: 230px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  float: left;
+}
+
+#widget{
+    background-image: url('../images/download.jpeg');
+    height: 200px;
+    width: 230px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  float: left;
+  top: 50px;
+  left: 50px;
+}
+
+#rockpaper{
+    background-image: url('../images/download.jpeg');
+    height: 200px;
+    width: 230px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  float: left;
+  top: 80px;
+  left: 20px;
+}
+
+#projects1{
+    float: left;
+}
+
+#projects2{
+    clear: both;
+}
+
+#projects3{
+    clear: both;
 }
